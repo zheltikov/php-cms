@@ -2,6 +2,8 @@
 
 namespace Zheltikov\Cms\Core;
 
+use function Zheltikov\Cms\array_is_list;
+
 /**
  *
  */
@@ -9,7 +11,7 @@ class Config
 {
     use SingletonTrait;
 
-    public const CONFIG_FILENAME = '.cms_config.json';
+    public const CONFIG_FILENAME = '.cms_config.json5';
 
     /**
      * @var array
